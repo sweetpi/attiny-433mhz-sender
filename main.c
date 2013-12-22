@@ -8,6 +8,8 @@
 #define INPUT_PIN0 PB0
 #define INPUT_PIN1 PB1
 
+#define SWITCH_ID "100010100111100010011010"
+
 volatile char state;
 
 int main(void) {
@@ -34,7 +36,7 @@ int main(void) {
     // debounce:
 		_delay_ms(200);		
 		// send(id, oneOrAll, onOrOff, unit): 
-		send("100011110100100010011010", 1, state, "1");
+		send(SWITCH_ID, 1, state, "1");
 	}
 }
 
