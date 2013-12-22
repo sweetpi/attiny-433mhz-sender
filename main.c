@@ -3,6 +3,8 @@
 #include <util/delay.h>
 #include <avr/sleep.h>
 
+#define TRANS_PIN PB2
+
 #include "rc.h"
 
 #define INPUT_PIN0 PB0
