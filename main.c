@@ -21,14 +21,14 @@ int main(void) {
 	// Set INPUT_PIN as Input
 	DDRB &= ~(1 << INPUT_PIN0 | 1 << INPUT_PIN1);
 
-	// init interrupt
-	// interrupt: PCINT10 
-	PCMSK |= (1<<PCINT1 | 1<<PCINT0);
+	// Enable PCINT0 (PB0) and PCINT1 (PB1) interrupt
+	PCMSK |= (1<<PCINT0 | 1<<PCINT1);
 
 	// turn on interrupts!
-	GIMSK  |= (1<<PCIE);
+	GIMSK |= (1<<PCIE);
 	sei();
 
+	// Set TRANS_PIN low
 	PORTB &= ~(1 << TRANS_PIN);
 
 	while (1) {
