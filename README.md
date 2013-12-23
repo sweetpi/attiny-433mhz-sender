@@ -14,7 +14,7 @@ part list
 
 * [433Mhz Transmitter Modul][sender]
 * [AVR ATtiny85][att85]
-* 3x 10kOhm Widerstand
+* 2x 10kOhm Widerstand
 * 2x [switch][taster]
 * [battery holder][batt] für 3-5V 
 * 1x [LED][led] (Optional)
