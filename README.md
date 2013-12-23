@@ -1,7 +1,7 @@
 attiny-433mhz-sender
 ====================
 
-AVR ATtiny85 433mhz remote vontrol for [Intertechno IT-1500 power outlets](http://www.amazon.de/gp/product/B0054IPASK/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B0054IPASK&amp;linkCode=as2&amp;tag=sweetpi-21).
+AVR ATtiny85 433mhz remote control for [Intertechno IT-1500 power outlets](http://www.amazon.de/gp/product/B0054IPASK/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B0054IPASK&amp;linkCode=as2&amp;tag=sweetpi-21).
 
 schematics
 ----------
