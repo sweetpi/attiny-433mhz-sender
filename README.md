@@ -1,6 +1,8 @@
 attiny-433mhz-sender
 ====================
 
+AVR ATtiny85 433mhz remote vontrol for [Intertechno IT-1500 power outlets](http://www.amazon.de/gp/product/B0054IPASK/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B0054IPASK&amp;linkCode=as2&amp;tag=sweetpi-21).
+
 schematics
 ----------
 
@@ -28,11 +30,11 @@ part list
 source and built
 ---------------
 
-   sudo apt-get install gcc-avr avr-libc
+    sudo apt-get install gcc-avr avr-libc
 
 Built with make:
 
-   make
+    make
 
 `rc.h` implements the 433mhz protocoll for the [Intertechno IT-1500 power outlets](http://www.amazon.de/gp/product/B0054IPASK/ref=as_li_qf_sp_asin_tl?ie=UTF8&amp;camp=1638&amp;creative=6742&amp;creativeASIN=B0054IPASK&amp;linkCode=as2&amp;tag=sweetpi-21)
 
