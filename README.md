@@ -27,12 +27,12 @@ part list
  [taster]: http://www.amazon.de/s/?_encoding=UTF8&__mk_de_DE=%C3%83%C2%85M%C3%83%C2%85%C3%85%C2%BD%C3%83%C2%95%C3%83%C2%91&camp=1638&creative=19454&field-keywords=avr%20programmer&linkCode=ur2&site-redirect=de&tag=tube2mp3-21&url=search-alias%3Daps
 
 
-source and built
+source and build
 ---------------
 
     sudo apt-get install gcc-avr avr-libc
 
-Built with make:
+Build with make:
 
     make
 
