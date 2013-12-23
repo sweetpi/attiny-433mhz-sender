@@ -16,9 +16,9 @@ part list
 * [AVR ATtiny85][att85]
 * 2x 10kOhm Widerstand
 * 2x [switch][taster]
-* [battery holder][batt] für 3-5V 
+* [battery holder][batt] for 3-5V 
 * 1x [LED][led] (Optional)
-* 1x Vorwiderstand für die Leuchtdiode (Optional)
+* 1x LED series resistor (Optional)
 
  [sender]: http://www.amazon.de/s/?_encoding=UTF8&__mk_de_DE=%C3%83%C2%85M%C3%83%C2%85%C3%85%C2%BD%C3%83%C2%95%C3%83%C2%91&camp=1638&creative=19454&field-keywords=433%20mhz%20transmitter%20module&linkCode=ur2&site-redirect=de&tag=sweetpi-21&url=search-alias%3Daps
  [att85]: http://www.amazon.de/gp/product/B0053TACLU/ref=as_li_ss_tl?ie=UTF8&camp=1638&creative=19454&creativeASIN=B0053TACLU&linkCode=as2&tag=sweetpi-21
