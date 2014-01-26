@@ -23,6 +23,7 @@ void sendPulse0(void);
 void sendPulse1(void);
 void sendPulseHigh(void);
 void sendPulseLow(void);
+void sendPulseDim(void);
 
 void send(char* id, int single, int state, char* unit){
   for(char i=0;i<3;i++) {
